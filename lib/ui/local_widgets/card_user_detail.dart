@@ -46,6 +46,9 @@ class CardUserDetail extends StatelessWidget {
                   },
                   child: const Icon(Icons.message),
                 ),
+                const SizedBox(
+                  height: 5.0,
+                ),
                 OutlinedButton(
                   onPressed: () {
                     // Respond to button press
